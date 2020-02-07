@@ -1,0 +1,2 @@
+Extrahovat ze souboru měření ve formátu HL7 za konkrétní čas a konkrétního pacienta - zde PID 2011034.
+Převést důležité informace podle standartu FHIR a použití JSON.
