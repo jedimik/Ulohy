@@ -1,2 +1,9 @@
 Extrahovat ze souboru měření ve formátu HL7 za konkrétní čas a konkrétního pacienta - zde PID 2011034.
 Převést důležité informace podle standartu FHIR a použití JSON.
+
+
+cilovePID="2011034"
+cilenycas="20110810093156"
+
+doporucene pres cmd: skript2B.py 2011034 20110810093156
+doporucene pres cmd: skript2B.py 2011032 20110802091455

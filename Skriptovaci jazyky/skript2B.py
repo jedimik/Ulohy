@@ -1,10 +1,14 @@
 import hl7
 import json
+import sys
 #Zisk dat
-def Test():
-    cilovePID="2011034"
-    cilenycas="20110810093156"
-    puvodnidata=open(cilovePID+".txt","r")
+#cilovePID="2011034"
+#cilenycas="20110810093156"
+def main(cilovePID,cilenycas):
+    try:
+        puvodnidata=open(cilovePID+".txt","r")
+    except:
+        return ("Zapsal jste neexistujici PID.")
     novadata=""
     for x in puvodnidata:
         novadata+=x
@@ -19,7 +23,7 @@ def Test():
     Pozice=False
     Start=False
     for index,x in enumerate(h):
-        if len(h[index])>=7 and str(h[index][7])==str(cilenycas):
+        if len(h[index])>=7 and str(h[index][7])==str(cilenycas) and Pozice==False:
             Pozice=True
             StartPozice=index
             mehehe=index#pocitani s indexem, kde je poprve cileny cas
@@ -32,8 +36,10 @@ def Test():
             if len(h[StartPozice])>1 and str(h[StartPozice][0])=="MSH" and Start==True:
                 if posledni_index==0:
                     posledni_index=StartPozice-1#kvuli te naplnene podmince odecit MSH/ mezera nevadi
-                break           
-
+                break
+    if Pozice==False:
+        return("Napsal jste spatny cas, takovy tu neexistuje")
+    
     #Zpracovani json
     component=0
     main={"resourceType":"Observation", "subject":cilovePID,\
@@ -50,8 +56,11 @@ def Test():
         "unit":unit,"code":unit}]}]}
         main.update(componenta)
     return(main)
-    
-    
-print(json.dumps(Test(), indent=4))
+        
+arguments = len(sys.argv) - 1
+if arguments==2:
+    print(json.dumps(main(sys.argv[1],sys.argv[2]), indent=4))
+    main(sys.argv[1],sys.argv[2])
+else:
+    print("Musite zadat dva argumenty")
 
-Test()
