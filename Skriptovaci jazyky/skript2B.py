@@ -4,7 +4,7 @@ import sys
 #Zisk dat
 #cilovePID="2011034"
 #cilenycas="20110810093156"
-def main(cilovePID,cilenycas):
+def main(vystup,cilovePID,cilenycas):
     try:
         puvodnidata=open(cilovePID+".txt","r")
     except:
@@ -55,12 +55,15 @@ def main(cilovePID,cilenycas):
         "code":"Kod v Loincu podle vitalniho parametru","display":display}]},"valueQuantity":[{"value":value,\
         "unit":unit,"code":unit}]}]}
         main.update(componenta)
+        f = open(vystup+".txt","w")
+        f.write(json.dumps(main, indent=4))
+        f.close
     return(main)
         
 arguments = len(sys.argv) - 1
-if arguments==2:
-    print(json.dumps(main(sys.argv[1],sys.argv[2]), indent=4))
-    main(sys.argv[1],sys.argv[2])
+if arguments==3:
+    print(json.dumps(main(sys.argv[1],sys.argv[2],sys.argv[3]), indent=4))
+    main(sys.argv[1],sys.argv[2],sys.argv[3])
 else:
-    print("Musite zadat dva argumenty")
+    print("Musite zadat tri argumenty. Prvni nazev vystup Souboru, Druhy idPacienta a treti pote Cas")
 

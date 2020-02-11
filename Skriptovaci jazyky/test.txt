@@ -1,0 +1,487 @@
+{
+    "resourceType": "Observation",
+    "subject": "2011034",
+    "effectiveDateTime": "20110810093156",
+    "effectivePeriod": "1",
+    "effectiveTiming": "min",
+    "component1": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "HR"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "102",
+                    "unit": "bpm",
+                    "code": "bpm"
+                }
+            ]
+        }
+    ],
+    "component2": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "VPC"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0",
+                    "unit": "/min",
+                    "code": "/min"
+                }
+            ]
+        }
+    ],
+    "component3": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "ST1"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0.00",
+                    "unit": "mV",
+                    "code": "mV"
+                }
+            ]
+        }
+    ],
+    "component4": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "ST2"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0.00",
+                    "unit": "mV",
+                    "code": "mV"
+                }
+            ]
+        }
+    ],
+    "component5": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "ST3"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0.00",
+                    "unit": "mV",
+                    "code": "mV"
+                }
+            ]
+        }
+    ],
+    "component6": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "STVR"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0.00",
+                    "unit": "mV",
+                    "code": "mV"
+                }
+            ]
+        }
+    ],
+    "component7": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "STVL"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0.00",
+                    "unit": "mV",
+                    "code": "mV"
+                }
+            ]
+        }
+    ],
+    "component8": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "STVF"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0.00",
+                    "unit": "mV",
+                    "code": "mV"
+                }
+            ]
+        }
+    ],
+    "component9": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "APSEC(RESP)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "0",
+                    "unit": "sec",
+                    "code": "sec"
+                }
+            ]
+        }
+    ],
+    "component10": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "rRESP(co2)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "22",
+                    "unit": "/min",
+                    "code": "/min"
+                }
+            ]
+        }
+    ],
+    "component11": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "SpO2"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "94",
+                    "unit": "%",
+                    "code": "%"
+                }
+            ]
+        }
+    ],
+    "component12": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "PR(spo2)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "102",
+                    "unit": "/min",
+                    "code": "/min"
+                }
+            ]
+        }
+    ],
+    "component13": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "TEMP"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "25.5",
+                    "unit": "C",
+                    "code": "C"
+                }
+            ]
+        }
+    ],
+    "component14": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "FEM(S)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "70",
+                    "unit": "mmHg",
+                    "code": "mmHg"
+                }
+            ]
+        }
+    ],
+    "component15": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "FEM(D)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "35",
+                    "unit": "mmHg",
+                    "code": "mmHg"
+                }
+            ]
+        }
+    ],
+    "component16": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "FEM(M)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "50",
+                    "unit": "mmHg",
+                    "code": "mmHg"
+                }
+            ]
+        }
+    ],
+    "component17": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "PR(fem)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "102",
+                    "unit": "/min",
+                    "code": "/min"
+                }
+            ]
+        }
+    ],
+    "component18": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "CVP(S)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "9",
+                    "unit": "mmHg",
+                    "code": "mmHg"
+                }
+            ]
+        }
+    ],
+    "component19": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "CVP(D)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "3",
+                    "unit": "mmHg",
+                    "code": "mmHg"
+                }
+            ]
+        }
+    ],
+    "component20": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "CVP(M)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "6",
+                    "unit": "mmHg",
+                    "code": "mmHg"
+                }
+            ]
+        }
+    ],
+    "component21": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "rPR(fem)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "101",
+                    "unit": "/min",
+                    "code": "/min"
+                }
+            ]
+        }
+    ],
+    "component22": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "RESP(co2)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "22",
+                    "unit": "/min",
+                    "code": "/min"
+                }
+            ]
+        }
+    ],
+    "component23": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "EtCO2"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "49.0",
+                    "unit": "mmHg",
+                    "code": "mmHg"
+                }
+            ]
+        }
+    ],
+    "component24": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "Kod v Loincu podle vitalniho parametru",
+                        "display": "APSEC(CO2)"
+                    }
+                ]
+            },
+            "valueQuantity": [
+                {
+                    "value": "1",
+                    "unit": "sec",
+                    "code": "sec"
+                }
+            ]
+        }
+    ]
+}

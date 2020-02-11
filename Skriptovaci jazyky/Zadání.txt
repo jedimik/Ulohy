@@ -4,6 +4,7 @@ Převést důležité informace podle standartu FHIR a použití JSON.
 
 cilovePID="2011034"
 cilenycas="20110810093156"
+test = vzdy bude txt
 
-doporucene pres cmd: skript2B.py 2011034 20110810093156
-doporucene pres cmd: skript2B.py 2011032 20110802091455
+doporucene pres cmd: skript2B.py test 2011034 20110810093156
+doporucene pres cmd: skript2B.py test 2011032 20110802091455
